@@ -1,0 +1,15 @@
+$myrtle-green: #587b7fff;
+$eerie-black: #1e2019ff;
+$black-olive: #394032ff;
+$olivine: #8dab7fff;
+$mindaro: #cfee9eff;
+$white: #fff;
+$gradient-color-bg1: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+$color1: #21d4fd;
+$color2: #b721ff;
+
+@mixin container {
+   width: 80%;
+   max-width: 75rem;
+   margin: 0 auto;
+}

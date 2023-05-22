@@ -1,0 +1,24 @@
+@import "../styles/global.scss";
+
+.user-list {
+   width: 50%;
+   background-color: $white;
+   margin: 0 auto;
+   padding: 1rem;
+   border-radius: 8px;
+
+
+   p {
+      border: 1px solid $eerie-black;
+      padding: 8px;
+      border-radius: 4px;
+      font-weight: 700;
+      transition: all .5s ease;
+
+      &:hover {
+         background-color: $color2;
+         color: white;
+         border: none;
+      }
+   }
+}

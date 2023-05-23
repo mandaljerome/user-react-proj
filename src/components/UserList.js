@@ -8,7 +8,7 @@ const UserList = (props) => {
       props.onDeleteData(e.target.id)
     }
 
-   const dataList = data.map((e) => <p id={e.key}onClick={clickDelete}>{e.username} ({e.age} {e.age > 0 ? 'years old' : 'year old'})</p>)
+   const dataList = data.map((e) => <p id={e.key} onClick={clickDelete} key={e.key}>{e.username} ({e.age} {e.age > 0 ? 'years old' : 'year old'})</p>)
 
    
 
@@ -20,3 +20,6 @@ const UserList = (props) => {
 }
 
 export default UserList
+
+
+  
